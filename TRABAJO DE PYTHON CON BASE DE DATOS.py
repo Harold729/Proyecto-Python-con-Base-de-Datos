@@ -384,7 +384,7 @@ class Books:
         while True:                      # sea mayor a la fecha de publicacion del libro al que se le quiere asignar
             print("Ingrese su Fecha de Publicación: ")
             new_publication_date = str(validate_date())
-            if self.validate_date(new_publication_date, cod3):
+            if self.validate_date(new_publication_date, cod):
                 db = Conexion()
                 query4 = "SELECT book.FECHA_PUBLICACION FROM book WHERE ID_BOOK = %s;"
                 fecha = str(db.fetch_one(query4, (cod,))[0])
