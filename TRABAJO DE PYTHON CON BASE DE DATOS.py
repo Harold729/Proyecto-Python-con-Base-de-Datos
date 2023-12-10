@@ -2,7 +2,7 @@
 # de bases de datos relacionales y ponerlos en prácticas con el lenguaje de programación Python
 
 # IMPORTANTE: Instalar las librerias time, datetime, prettytable, mysql.connector y ejecutar el archivo .sql
-# adjunto en la carpeta [S14-TRABAJO PRACTICO EXPERIMENTAL_2 POO] para que el programa funcione correctamente
+# adjunto para que el programa funcione correctamente
 
 from time import sleep
 from datetime import datetime, timedelta
